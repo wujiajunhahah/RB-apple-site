@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>灵感徽章 · RealityBadge</title>
+  <style>
+    :root{--bg1:#EAF7FF;--bg2:#F3EBFF;--card:rgba(255,255,255,.65);--border:rgba(255,255,255,.6)}
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",Roboto,Helvetica,Arial,sans-serif;margin:0;background:linear-gradient(135deg,var(--bg1),var(--bg2));}
+    .wrap{max-width:920px;margin:0 auto;padding:32px}
+    header{display:flex;align-items:center;gap:16px;margin:8px 0 20px}
+    header img{width:72px;height:72px;border-radius:16px}
+    h1{margin:0;font-size:28px}
+    h2{margin:28px 0 12px;font-size:20px}
+    p,li{line-height:1.7;color:#333}
+    .card{background:var(--card);backdrop-filter:blur(8px);padding:20px;border-radius:16px;border:1px solid var(--border);margin:16px 0}
+    a{color:#0A84FF;text-decoration:none}
+    footer{margin:32px 0;color:#666}
+    .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <img src="assets/logoRB.png" alt="RealityBadge logo"/>
+      <div>
+        <h1>灵感徽章 · RealityBadge</h1>
+        <div>从现实中采集灵感，生成沉浸式 3D 徽章</div>
+      </div>
+    </header>
+
+    <div class="card">
+      <h2>亮点</h2>
+      <ul>
+        <li>实时相机取景 → 一键生成 3D 徽章</li>
+        <li>深度与主体轮廓，层次更自然</li>
+        <li>运动驱动视差 + Core Haptics 触觉</li>
+        <li>徽章墙管理，导入/导出 .rbadge</li>
+        <li>iPhone / iPad 适配，深浅色模式</li>
+        <li>天气/时间/偏好驱动的灵感提示（WeatherKit + 本地学习）</li>
+      </ul>
+      <p>English intro below.</p>
+    </div>
+
+    <div class="card">
+      <h2>隐私</h2>
+      <p>不做跟踪，不采集个人数据。定位仅用于本地获取天气，不上传。</p>
+      <p>隐私政策：<a href="privacy.html">privacy.html</a></p>
+    </div>
+
+    <div class="card grid">
+      <div>
+        <h2>支持与联系</h2>
+        <p>Issues / 反馈：<a href="support.html">support.html</a></p>
+        <p>作者主页：<a href="https://bonjour.bio/gaazone">bonjour.bio/gaazone</a></p>
+        <p>邮箱：<a href="mailto:epwujiajun@icloud.com">epwujiajun@icloud.com</a></p>
+      </div>
+      <div>
+        <h2>RealityBadge (English)</h2>
+        <p>A daily AR creation app. Recognize objects around you and turn them into unique 3D badges with motion‑driven parallax and refined haptics. The Inspiration Center offers gentle prompts based on weather, daily rhythm, and your usage patterns.</p>
+        <ul>
+          <li>Realtime capture → 3D badge generation</li>
+          <li>Depth‑aware cutout for natural layering</li>
+          <li>Motion parallax + Core Haptics</li>
+          <li>Badge wall, import/export .rbadge</li>
+          <li>iPhone/iPad + Dark/Light Mode</li>
+          <li>Weather/time/behavior‑aware suggestions (WeatherKit + on‑device learning)</li>
+        </ul>
+        <p>Privacy policy: <a href="privacy.html">privacy.html</a></p>
+      </div>
+    </div>
+
+    <footer>© RealityBadge</footer>
+  </div>
+</body>
+</html>
