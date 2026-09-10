@@ -48,6 +48,13 @@
 - 时间轴：`#s04` 的进度在 0.36 处为 0.51、0.44 处为 1.03 → 黑场落在全局 37–42%，符合设计
 - 页面错误：puppeteer 的 `pageerror` + console 错误监听，全段扫描 **0 条**
 
+**线上验证**（推到 GitHub Pages 之后）
+
+- `https://wujiajunhahah.github.io/RB-apple-site/` 返回 200，HTML 含新站标记与 `<canvas id="gl">`
+- 用 puppeteer 打开**线上地址**截图：`/tmp/LIVE01.png`、`/tmp/LIVE03.png`；
+  线上点阵「钥匙」剪影正常渲染，**0 页面错误、0 失败请求**（含 vendor 的 three.js 与三张截图）
+- 钥匙剪影重画后（圆环头 + 短轴 + 两齿）比第一版好读，不再是棒棒糖
+
 **没验证什么 / 已知问题**
 
 - **移动端 375px 未实测**（只做了媒体查询的代码层处理）
