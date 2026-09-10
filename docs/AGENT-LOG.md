@@ -12,7 +12,7 @@
 - `index.html`：整站重写为 9 段连续滚动叙事（原先是 89 行的静态页）
 - `assets/launch.css`：新增。双场色彩系统、四章进场效果、手电筒、可拖拽标题、降级与移动端
 - `assets/launch.js`：新增。WebGL 三场景（3D 手机 / 小物星云 / 收尾点阵）+ 滚动控制器 + 八种 DOM 效果
-- `vendor/three.module.min.js`：本地 vendor three.js r169（687KB，用 min 版而非 1.3MB 的完整版）
+- `vendor/three.module.min.js`：本地 vendor three.js r169（687KB，用 min 版而非 1.3MB 的完整版；未压缩的那份已删，避免仓库里躺两份）
 - `assets/screens/{home,stage,result}.png`：真机 App 截图（1206×2622），作为 3D 手机的屏幕贴图
 - `docs/DESIGN.md`：新增。四个基础：叙事结构 / 视觉基调 / 动效语言 / 硬性约束
 - `AGENTS.md`：新增。要求任何代理先读设计规范、必须写本日志、不许把未验证说成完成
